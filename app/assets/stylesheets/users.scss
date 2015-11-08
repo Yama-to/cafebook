@@ -1,0 +1,65 @@
+/*!
+ * Start Bootstrap - Shop Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.ratings {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.map-container {
+
+  #map {
+    width:  100%;
+    height: 300px;
+    border-radius: 5px;
+  }
+}
+
+.cafe-container {
+  padding: 0 12px;
+}
+
+.cafe-outbox {
+  padding: 3px;
+}
+
+.cafe-box {
+  padding: 5px;
+}
+
+.btn-new-cafe {
+  button {
+    margin: 6px 0;
+  }
+}

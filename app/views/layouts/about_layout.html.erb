@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cafebook</title>
+  <%= stylesheet_link_tag    'top', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'top', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
+  <style>
+    h1 {
+        text-align: center;
+        font-family: 'Ruluko', sans-serif;
+    }
+    p {
+        text-align: center;
+        font-size: 24px;
+    }
+    body {
+        text-align: center;
+        color: white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    input {
+        border: 0;
+        padding: 12px;
+        font-size: 18px;
+    }
+    input[type="submit"] {
+        background:limegreen;
+        color: black;
+    }
+    footer{
+    color:white;
+    text-align:center;
+    clear:both;
+    line-height:50px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="cd-main-content cd-about">
+
+      <%= yield %>
+
+    </div>
+  </main>
+  <div class="cd-cover-layer"></div>
+  <div class="cd-loading-bar"></div>
+</body>
+<script>
+  // var currentURL = document.URL;
+  // (function () {
+  //   if(currentURL.match(/about/)){
+  //     location.href = '/'
+  //   }
+  // }());
+</script>
+</html>
